@@ -37,18 +37,13 @@ We provide visualizations of every dataset example in the directory `PoC_visuali
 
 An example is shown below:
 
+<blockquote>
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-span {
-  font-family:helvetica;
-}
-</style>
+<head><style>span {font-family:helvetica;}</style>
 </head>
 <body>
 
-<blockquote>
 <span>The designated <b>summary</b> sentence was created by <b>fusing</b> the two designated <b>article</b> sentences together. 
 The highlighted spans of a single color (e.g. blue) represent a <b>Point of Correspondence</b>. 
 There may be multiple Points of Correspondence. Each Point of Correspondence also has a <b>type</b>, which can be one of the following: {Nominal, Pronominal, Common-Noun, Repetition, Event}. </span>
