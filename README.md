@@ -37,4 +37,4 @@ We provide visualizations of every dataset example in the directory `PoC_visuali
 
 An example is shown below:
 
-![Example visualization](example.png)
+>![Example visualization](example.png)
