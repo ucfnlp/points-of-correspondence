@@ -3,12 +3,6 @@ import vis_functions
 import json
 from tqdm import tqdm
 
-def fix_tokenization(sent):
-    '''Necessary to fix slight tokenization inconsistencies in the article'''
-    sent = ' '.join([token[:-1] + ' .' if token[-1] == '.' else token for token in sent.split(' ')])
-    sent = sent.replace('..', '. .')
-    return sent
-
 # Directory to write HTML visuailizations
 visualizations_dir = 'PoC_visualizations'
 if not os.path.exists(visualizations_dir):
@@ -20,7 +14,7 @@ with open('PoC_dataset.json', encoding='utf-8') as f:
 
 for example_idx, example in enumerate(tqdm(examples)):
     # Split Article and Summary into tokenized sentences
-    article_sent_tokens = [fix_tokenization(sent.strip()).split(' ') for sent in example['Full_Article'].split('\t')]
+    article_sent_tokens = [sent.strip().split(' ') for sent in example['Full_Article'].split('\t')]
     summary_sent_tokens = [sent.strip().split(' ') for sent in example['Full_Summary'].split('\t')]
     sent1_idx = example['Sentence_1_Index']
     sent2_idx = example['Sentence_2_Index']
