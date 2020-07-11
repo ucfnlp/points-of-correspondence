@@ -2,7 +2,7 @@
 Dataset for the ACL SRW 2020 paper [Understanding Points of Correspondence between Sentences for Abstractive Summarization](https://arxiv.org/abs/2006.05621)
 
 # Dataset
-The dataset contains 1,599 sentence fusion examples with fine-grained *Points of Correspondence* annotations. A *Point of Correspondence* is an entity or event that connects two sentences together, which is represented as a span of text from each sentence. [Click here to see an example](#example-visualization).
+The dataset contains 1,599 sentence fusion examples with fine-grained *Points of Correspondence* annotations. A *Point of Correspondence* is an entity or event that connects two sentences together, which is represented as a span of text from each sentence. [Click here to see an example](#example-visualizations).
 
 Our dataset is in JSON format in the file `PoC_dataset.json`. Each example has the following attributes:
 >
@@ -32,9 +32,26 @@ Our dataset is in JSON format in the file `PoC_dataset.json`. Each example has t
 >>
 >>**PoC_Type:** Can be {Nominal, Pronominal, Common-Noun, Repetition, Event}
 
-# Example Visualization
+# Example Visualizations
 We provide visualizations of every dataset example in the directory `PoC_visualizations/`, which can be opened in any browser, along with the code used to create them in `visualize_poc.py`.
 
-An example is shown below:
+The process is easy and can be seen below:
 
->![Example visualization](example.png)
+![Example visualization](points_of_correspondence.gif)
+
+## Presentation Video
+Watch our presentation given virtually at ACL: [https://slideslive.com/38928667/understanding-points-of-correspondence-between-sentences-for-abstractive-summarization](https://slideslive.com/38928667/understanding-points-of-correspondence-between-sentences-for-abstractive-summarization)
+
+## Citation
+```
+@inproceedings{lebanoff-etal-2020-understanding,
+    title = "Understanding Points of Correspondence between Sentences for Abstractive Summarization",
+    author = "Lebanoff, Logan and Muchovej, John and Dernoncourt, Franck and Kim, Doo Soon and Wang, Lidan and Chang, Walter and Liu, Fei",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop",
+    month = jul,
+    year = "2020",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-srw.26",
+    pages = "191--198",
+}
+```
