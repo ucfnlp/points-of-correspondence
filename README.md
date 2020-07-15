@@ -44,9 +44,9 @@ Each PoC has the following attributes:
 
 | Attribute | Content |
 | --- | --- | 
-| **Sentence_1_Selection** | Token indices for beginning and end of the Point of Correspondence in input sentence |
-| **Sentence_2_Selection** | Token indices for beginning and end of the Point of Correspondence in input sentence |
-| **Sentence_Fused_Selection** | Token indices for beginning and end of the Point of Correspondence in fused sentence |
+| **Sentence_1_Selection** | Token indices for beginning and end of the PoC in input sentence |
+| **Sentence_2_Selection** | Token indices for beginning and end of the PoC in input sentence |
+| **Sentence_Fused_Selection** | Token indices for beginning and end of the PoC in fused sentence |
 | **PoC_Type** | Can be any of `Nominal`, `Pronominal`, `Common-Noun`, `Repetition` and `Event` |
 
 # Example Visualizations
