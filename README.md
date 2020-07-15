@@ -18,7 +18,7 @@ Dataset for our ACL SRW 2020 paper [Understanding Points of Correspondence betwe
 ## Presentation Video
 Watch our presentation given virtually at ACL:
 
-[![Watch our presentation given virtually at ACL:](https://www.cs.ucf.edu/~feiliu/img/video_poc.png)](https://slideslive.com/38928667/understanding-points-of-correspondence-between-sentences-for-abstractive-summarization)
+[![Watch our presentation given virtually at ACL:](https://www.cs.ucf.edu/~feiliu/img/presentation_poc.png)](https://slideslive.com/38928667/understanding-points-of-correspondence-between-sentences-for-abstractive-summarization)
 
 # Dataset
 Fusing sentences containing disparate content is a remarkable human ability that helps create informative and succinct summaries. Such a simple task for humans has remained challenging for modern abstractive summarizers, substantially restricting their applicability in real-world scenarios. 
