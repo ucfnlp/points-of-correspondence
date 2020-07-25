@@ -56,3 +56,8 @@ The process is easy and can be seen below:
 
 ![Example visualization](points_of_correspondence.gif)
 
+# Model Outputs
+The outputs of our models can be downloaded here:
+https://drive.google.com/file/d/10kFJopco2dd3C-jruOb-oVrOTuINnuSe/view?usp=sharing
+
+*Note: We tested only on the examples that had at least one point of correspondence, so there are 1494 outputs for each model.
