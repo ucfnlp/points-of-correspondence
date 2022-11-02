@@ -58,6 +58,6 @@ The process is easy and can be seen below:
 
 # Model Outputs
 The outputs of our models can be downloaded here:
-https://drive.google.com/file/d/10kFJopco2dd3C-jruOb-oVrOTuINnuSe/view?usp=sharing
+https://www.dropbox.com/sh/g34aj101oauwlx3/AABIdqbBXMAa8RFpb-I6Auh7a/Understanding Points of Correspondence between Sentences for Abstractive Summarization?dl=0
 
 *Note: We tested only on the examples that had at least one point of correspondence, so there are 1494 outputs for each model.
